@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+nav {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.browse__container {
+    background-color: #242424;
+    height: 75vh;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+h2 {
+    color: white;
+}
+
+.nav__a {
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/*  
+
+NAV
+
+*/
+
+
+.nav__container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo__name {
+    margin-left: 8px;
+}
+
+.logo__container {
+    display: flex;
+    align-items: center;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+
+.nav__btn {
+    border: none;
+    border-radius: 26px;
+    background-color: white;
+    font-weight: 600;
+    padding: 12px 26px;
+    color: rgba(33, 3, 82);
+}
+
+.nav__bg--img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 25vh;
+    z-index: -3;
+}
+
+.nav__bg {
+    background-color: rgba(33, 3, 82, 0.678);
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 25vh;
+}
+
+.logo {
+    height: 70px;
+}
