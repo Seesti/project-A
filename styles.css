@@ -157,11 +157,14 @@ MOVIES
 .movies__header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 24px;
 }
 
 #filter {
-
+    padding: 8px;
+    border-radius: 8px;
+    border-color: rgb(138, 138, 138);
 }
 
 h3 {

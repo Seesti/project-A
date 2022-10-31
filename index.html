@@ -9,7 +9,7 @@
       src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"
     ></script>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -47,7 +47,7 @@
         <div class="row">
           <div class="movies__header">
             <h3>Search results:</h3>
-            <select id="filter">
+            <select id="filter" onchange="filterMovies(event)">
               <option value="" disabled selected>Sort by release date</option>
               <option value="OLDEST_TO_LATEST">oldest to latest</option>
               <option value="LATEST_TO_OLDEST">latest to oldest</option>
@@ -55,57 +55,6 @@
           </div>
           <div class="movies__container">
             <div class="movies">
-              <div class="movie"></div>
-              <div class="movie">
-                <figure class="movie__img--wrapper">
-                  <img src="./assets/ff7_movie.jpg" alt="" class="movie__img">
-                </figure>
-                  <h4 class="movie__name">Fast & Furious 7</h4>
-                  <ul class="movie__info-list">
-                    <li class="movie__info">director</li>
-                    <li class="movie__info">Release year</li>
-                  </ul>
-              </div>
-              <div class="movie">
-                <figure class="movie__img--wrapper">
-                  <img src="./assets/ff7_movie.jpg" alt="" class="movie__img">
-                </figure>
-                  <h4 class="movie__name">Fast & Furious 7</h4>
-                  <ul class="movie__info-list">
-                    <li class="movie__info">director</li>
-                    <li class="movie__info">Release year</li>
-                  </ul>
-              </div>
-              <div class="movie">
-                <figure class="movie__img--wrapper">
-                  <img src="./assets/ff7_movie.jpg" alt="" class="movie__img">
-                </figure>
-                  <h4 class="movie__name">Fast & Furious 7</h4>
-                  <ul class="movie__info-list">
-                    <li class="movie__info">director</li>
-                    <li class="movie__info">Release year</li>
-                  </ul>
-              </div>
-              <div class="movie">
-                <figure class="movie__img--wrapper">
-                  <img src="./assets/ff7_movie.jpg" alt="" class="movie__img">
-                </figure>
-                  <h4 class="movie__name">Fast & Furious 7</h4>
-                  <ul class="movie__info-list">
-                    <li class="movie__info">director</li>
-                    <li class="movie__info">Release year</li>
-                  </ul>
-              </div>
-              <div class="movie">
-                <figure class="movie__img--wrapper">
-                  <img src="./assets/ff7_movie.jpg" alt="" class="movie__img">
-                </figure>
-                  <h4 class="movie__name">Fast & Furious 7</h4>
-                  <ul class="movie__info-list">
-                    <li class="movie__info">director</li>
-                    <li class="movie__info">Release year</li>
-                  </ul>
-              </div>
             </div>
           </div>
         </div>
